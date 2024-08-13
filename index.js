@@ -1,4 +1,6 @@
+const URL = "nnekfwfvkgf";
 
-for (let i = 1; i< 10; i++){
-    console.log("this is a number",i);
+const gaurav = async () => {
+    let response = await fetch(URL);
+    console.log(response);
 }
